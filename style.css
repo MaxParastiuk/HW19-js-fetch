@@ -1,0 +1,42 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.catalog-list {
+    list-style-type: none;
+}
+
+.albums {
+    margin-right: 50px;
+}
+
+.photos-list {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-catalog {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.item-catalog:hover {
+    cursor: pointer;
+    color: burlywood;
+}
